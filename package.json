@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/simon-johansson/es6-experiments#readme",
   "dependencies": {
-    "babel": "^5.5.8"
+    "babel": "^5.5.8",
+    "colors": "^1.1.2"
   }
 }
