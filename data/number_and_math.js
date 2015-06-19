@@ -28,3 +28,15 @@ log(`
 log(Number.isSafeInteger(3)); // true
 log(Number.isSafeInteger(9007199254740992)); // false
 
+log(`
+  Returns the sign of x as -1 or +1. Unless x is either NaN or zero; then x is returned.
+  `, 'magenta');
+
+log(Math.sign(-8)) // -1
+log(Math.sign(3)) // 1
+
+log(Math.sign(0)) // 0
+log(Math.sign(NaN)) // NaN
+
+log(Math.sign(-Infinity)) // -1
+log(Math.sign(Infinity)) // 1
