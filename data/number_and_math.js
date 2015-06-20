@@ -40,3 +40,13 @@ log(Math.sign(NaN)) // NaN
 
 log(Math.sign(-Infinity)) // -1
 log(Math.sign(Infinity)) // 1
+
+log(`
+  ${'Math.trunc'.red} removes the decimal fraction of x. Complements the other
+  rounding methods Math.floor(), Math.ceil() and Math.round().
+  `);
+
+log(Math.trunc(3.1)); // 3
+log(Math.trunc(3.9)); // 3
+log(Math.trunc(-3.1)); // -3
+log(Math.trunc(-3.9)); // -3
