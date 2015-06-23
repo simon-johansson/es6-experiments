@@ -21,9 +21,9 @@ $ babel-node data/number_and_math.js
 
 Change a `log` function call to a `focus` call to highlight that experiment in the terminal:
 ```js
-// change this (default colors):
+// change this (default colors, blends in):
 log(`My name is ${first} ${last}!`);
 
-// to this (default colors):
+// to this (red background, sticks out):
 focus(`My name is ${first} ${last}!`);
 ```
